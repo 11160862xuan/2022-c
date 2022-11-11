@@ -234,7 +234,7 @@ int main()
     printf("a[2]:%d\n", a[2] );
     printf("a[3]:%d\n", a[3] );
 }
-#week10
+# week10
  step02-1_陣列很有用, 像找質數時, 可以用篩子法快速把全部質數找出來。
  ```cpp
  #include<stdio.h>
