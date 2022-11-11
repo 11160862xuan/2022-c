@@ -218,3 +218,37 @@ int main()
 }
 
 ```
+
+
+#week10
+## step01-1 
+ step01-1_今天主題是陣列array,照著課本練習陣列宣告、陣列宣告順便給值、把值拿出來用。
+ ```cpp
+ #include<stdio.h>
+int main()
+{
+    int a[4]={10, 20, 30, 40};
+
+    printf("a[0]:%d\n", a[0] );
+    printf("a[1]:%d\n", a[1] );
+    printf("a[2]:%d\n", a[2] );
+    printf("a[3]:%d\n", a[3] );
+}
+#week10
+ step02-1_陣列很有用, 像找質數時, 可以用篩子法快速把全部質數找出來。
+ ```cpp
+ #include<stdio.h>
+int main()
+{
+    int a[4]={10, 20, 30, 40};
+
+    for(int i=0; i<4; i++)
+    {
+        printf("a[%d]: %d\n", i, a[i] );
+    }
+
+    for(int i=3; i>=0; i--)
+    {
+        printf("%d  " , a[i] );
+    }
+}
